@@ -16,7 +16,7 @@ export default RestApi({
                      (function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
                      
                          // implement resource here
-                     	response.setBody({ 'msg' : 'success'});
+                     	response.setBody({ 'msg' : 'failure'});
                      	response.setStatus(200);
                      
                      })(request, response);`,
