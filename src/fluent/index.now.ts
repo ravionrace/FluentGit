@@ -30,4 +30,5 @@ BusinessRule({
     order: 100,
     when: 'after',
     active: true,
+    abort_action: false,
 })
