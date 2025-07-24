@@ -13,12 +13,13 @@ export default RestApi({
             path: '/demo',
             enforce_acl: ['cf9d01d3e73003009d6247e603f6a990'],
             script: script`
-                 (function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-                 
-                     // implement resource here
-                 	response.setStatus(200);
-                 
-                 })(request, response);`,
+                     (function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+                     
+                         // implement resource here
+                     	response.setBody({ 'msg' : 'success'});
+                     	response.setStatus(200);
+                     
+                     })(request, response);`,
             $id: 'generated1',
         },
     ],
