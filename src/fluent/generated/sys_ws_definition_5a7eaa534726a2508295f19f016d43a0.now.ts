@@ -19,7 +19,7 @@ export default RestApi({
                                           
                                                                   var responseBody = {
                                                                       'code' : 1003,
-                                                                      'msg' : 'successfully stored the data into the table-Created Git Branch'
+                                                                      'msg' : 'successfully stored the data into the table-Created Git Branch/new Branch'
                                                                   };
                                                                	response.setBody(responseBody);
                                                                	response.setStatus(200);
